@@ -1,4 +1,4 @@
-# 📚 Advanced RAG System using FAISS, LangChain & Groq
+# Advanced RAG System using FAISS, LangChain & Groq
 
 An end-to-end **Retrieval-Augmented Generation (RAG)** application that performs semantic search over multiple document formats using **FAISS** and **Sentence Transformers**, then generates accurate responses with **Groq's Llama 3.1** model.
 
@@ -6,7 +6,7 @@ The project supports automatic document ingestion, embedding generation, vector 
 
 ---
 
-## 🚀 Features
+## Features
 
 - 📄 Multi-format document loading
   - PDF
@@ -16,19 +16,19 @@ The project supports automatic document ingestion, embedding generation, vector 
   - Word
   - JSON
 
-- ✂️ Automatic text chunking
-- 🧠 Sentence Transformer embeddings
-- ⚡ FAISS vector database
-- 🔍 Semantic similarity search
-- 🤖 Groq Llama 3.1 LLM integration
-- 📑 Context-aware answer generation
-- 📝 AI-powered document summarization
-- 💾 Persistent vector database
-- ⚙️ Modular and scalable project architecture
+-  Automatic text chunking
+-  Sentence Transformer embeddings
+-  FAISS vector database
+- Semantic similarity search
+-  Groq Llama 3.1 LLM integration
+-  Context-aware answer generation
+-  AI-powered document summarization
+-  Persistent vector database
+-  Modular and scalable project architecture
 
 ---
 
-# 🏗️ Project Architecture
+# Project Architecture
 
 ```
                     Documents
@@ -64,7 +64,7 @@ The project supports automatic document ingestion, embedding generation, vector 
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 - Python
 - LangChain
@@ -78,7 +78,7 @@ The project supports automatic document ingestion, embedding generation, vector 
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 RAG/
@@ -110,7 +110,7 @@ RAG/
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 ## Clone Repository
 
@@ -162,7 +162,7 @@ uv add -r requirements.txt
 
 ---
 
-# 🔑 Environment Variables
+#  Environment Variables
 
 Create a `.env` file.
 
@@ -172,7 +172,7 @@ GROQ_API_KEY=your_groq_api_key
 
 ---
 
-# ▶️ Run the Project
+#  Run the Project
 
 ```bash
 python app.py
@@ -180,7 +180,7 @@ python app.py
 
 ---
 
-# 💡 Example Query
+# Example Query
 
 ```
 Information security risk assessment
@@ -200,7 +200,7 @@ The organization shall define and apply an information security risk assessment 
 
 ---
 
-# 🔄 Workflow
+#  Workflow
 
 ```
 Load Documents
@@ -235,7 +235,7 @@ Generated Response
 
 ---
 
-# 📌 Supported File Types
+#  Supported File Types
 
 - PDF
 - TXT
@@ -246,7 +246,7 @@ Generated Response
 
 ---
 
-# 🎯 Future Improvements
+#  Future Improvements
 
 - Hybrid Search (BM25 + Vector Search)
 - Cross Encoder Reranking
@@ -261,7 +261,7 @@ Generated Response
 
 ---
 
-# 📖 Learning Outcomes
+#  Learning Outcomes
 
 This project demonstrates:
 
@@ -278,7 +278,7 @@ This project demonstrates:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Siva Selvam**
 
@@ -299,4 +299,4 @@ This project demonstrates:
 
 ---
 
-# ⭐ If you found this project useful, please consider giving it a Star.
+#  If you found this project useful, please consider giving it a Star.
